@@ -1,0 +1,19 @@
+<Solution>
+  <Project Path="AngryBirdsWinFormsApp/AngryBirdsWinFormsApp.csproj" Id="800a3103-de86-4d4f-8c4b-df301eed1492" />
+  <Project Path="BallsGame2WinFormsApp/BallsGame2WinFormsApp.csproj">
+    <BuildDependency Project="BallsGamesWinFormsApp/BallsGamesWinFormsApp.csproj" />
+    <BuildDependency Project="BillyardBallsWinFormsApp/BillyardBallsWinFormsApp.csproj" />
+  </Project>
+  <Project Path="BallsGamesWinFormsApp/BallsGamesWinFormsApp.csproj" />
+  <Project Path="BallsGameWinFormsLibrary/BallsGameWinFormsLibrary.csproj" Id="00b07eba-f17d-48f2-8735-425f55bf69eb">
+    <Build Solution="Debug|*" Project="false" />
+  </Project>
+  <Project Path="BillyardBallsWinFormsApp/BillyardBallsWinFormsApp.csproj" Id="c5316385-7432-4720-813a-06da3812ea33" />
+  <Project Path="DiffusionWinFormsApp/DiffusionWinFormsApp.csproj" Id="8650dae5-ad16-4371-87ed-685336ca9425">
+    <Build Solution="Debug|*" Project="false" />
+  </Project>
+  <Project Path="FruitNinjaWinFormsApp/FruitNinjaWinFormsApp.csproj" Id="359f1c10-e1b8-42ae-8dba-1e6e3e34fd99">
+    <Build Solution="Debug|*" Project="false" />
+  </Project>
+  <Project Path="SalutWinFormsApp/SalutWinFormsApp.csproj" Id="92149f5c-196f-4e00-9419-2fb656f2ced1" />
+</Solution>
